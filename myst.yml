@@ -1,12 +1,12 @@
 version: 1
 extends:
-  - https://raw.githubusercontent.com/projectpythia-mystmd/pythia-config/main/pythia.yml
+  - https://raw.githubusercontent.com/projectpythia/pythia-config/main/pythia.yml
 project:
   title: Wavelet Cookbook
   authors:
     - name: Project Pythia Community
       url: https://projectpythia.org/
-  github: https://github.com/projectpythia-mystmd/wavelet-cookbook
+  github: https://github.com/projectpythia/wavelet-cookbook
   copyright: '2024'
   toc:
     - file: README.md
@@ -23,7 +23,7 @@ project:
         - file: notebooks/example-workflows/nino3.ipynb
   jupyter:
       binder:
-        repo: projectpythia-mystmd/wavelet-cookbook
+        repo: projectpythia/wavelet-cookbook
 site:
   options:
     logo: notebooks/images/logos/pythia_logo-white-rtext.svg
